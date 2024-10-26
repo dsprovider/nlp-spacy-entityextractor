@@ -45,6 +45,17 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 
 
 
+# 🚀 Getting Started
+
+1. Clone this repo:
+
+2. Install the dependencies:
+
+3. Run the Code:
+
+
+
+
 
 
 
