@@ -1,6 +1,6 @@
 # 🧩 Entity Extraction with SpaCy and POS Tagging Rules 🧩
 
-**This repository is a Python-based project that explores two methods of entity extraction using SpaCy NLP library.**
+This repository is a Python-based project that explores two methods of entity extraction using SpaCy NLP library.
 
 # 🌟 Features
 
