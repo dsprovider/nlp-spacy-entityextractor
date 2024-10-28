@@ -40,10 +40,19 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 * *PERSON* for individuals
 * …and more
 
-
 # 🏗️ Code Overview
 
+1. **Import Libraries 📚:** Essential packages for NLP tasks.
 
+2. **Load SpaCy Model 🧠:** Loads the *en_core_web_sm model* to power our extractions.
+
+3. **Define POS Rules 🎛️:** Custom patterns to catch entities based on POS tagging.
+
+4. **Extraction Functions:**
+
+   * **extract_entities 🕵️:** Extract entities based on our POS tag rules.
+  
+   * **extract_named_entities 🕶️:** Use SpaCy’s built-in NER model for broader entity coverage.
 
 # 🚀 Getting Started
 
