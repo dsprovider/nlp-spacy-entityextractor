@@ -44,7 +44,7 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 
 1. **Import Libraries 📚:** Essential packages for NLP tasks.
 
-2. **Download SpaCy Model 📥:** *python -m spacy download en_core_web_sm*.
+2. **Download SpaCy Model 📥:** *python -m spacy download en_core_web_sm*
 
 3. **Load SpaCy Model 🧠:** Loads the *en_core_web_sm model* to power our extractions.
 
