@@ -201,7 +201,7 @@ def read_file(filename):
 
 def main():
     
-    directory = r"C:\Users\andres\Fiverr\01. Testing\28. Relevance Classifier\training"
+    directory = r"<directory_path_containing_text_files>"
 
     csv_filename = f"Report_" + datetime.now().strftime("%Y-%m-%d %H%M%S") + ".csv"
     csv_filepath = os.path.join(os.path.join(os.getcwd(), "out"), csv_filename)
