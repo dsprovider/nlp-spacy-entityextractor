@@ -44,11 +44,13 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 
 1. **Import Libraries 📚:** Essential packages for NLP tasks.
 
-2. **Load SpaCy Model 🧠:** Loads the *en_core_web_sm model* to power our extractions.
+2. **Download SpaCy Model 📥:** *python -m spacy download en_core_web_sm*.
 
-3. **Define POS Rules 🎛️:** Custom patterns to catch entities based on POS tagging.
+3. **Load SpaCy Model 🧠:** Loads the *en_core_web_sm model* to power our extractions.
 
-4. **Extraction Functions:**
+4. **Define POS Rules 🎛️:** Custom patterns to catch entities based on POS tagging.
+
+5. **Extraction Functions:**
 
    * **extract_entities 🕵️:** Extract entities based on our POS tag rules.
   
