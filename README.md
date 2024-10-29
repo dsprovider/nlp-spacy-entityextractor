@@ -85,9 +85,9 @@ Running the Python script will generate a CSV file that contains the following c
 
 # 🔜 Upcoming Features
 
-* Ideally, this project could integrate a web scraping phase to automatically collect data from relevant websites. Once the data is gathered, the entity extraction process would run, providing a quick, high-level summary of the content. This output could be designed for inclusion in executive reports, offering clear and concise insights for those with limited time who need strong, to-the-point headlines.
+* Ideally, **this project could integrate a web scraping** phase to automatically collect data from relevant websites. Once the data is gathered, the entity extraction process would run, providing a quick, high-level summary of the content. This output could be designed for inclusion in executive reports, offering clear and concise insights for those with limited time who need strong, to-the-point headlines.
 
-* Explore NLTK as a potential feature in future testing phases to assess its performance further, despite initial tests indicating lower precision compared to SpaCy. This additional evaluation could provide deeper insights into NLTK's capabilities and identify specific cases where it may still be effective.
+* **Explore NLTK as a potential feature in future testing phases to assess its performance further, despite initial tests indicating lower precision compared to SpaCy**. This additional evaluation could provide deeper insights into NLTK's capabilities and identify specific cases where it may still be effective.
 
 
 
