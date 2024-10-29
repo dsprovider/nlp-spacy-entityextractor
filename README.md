@@ -1,6 +1,6 @@
 # 🧩 Entity Extraction with SpaCy and POS Tagging Rules 🧩
 
-This repository is a Python-based project that explores two methods of entity extraction using SpaCy NLP library.
+This repository is a Python-based project focused on exploring two methods of entity extraction using the SpaCy NLP library. The main goal of the project is to provide a script that takes a folder path containing text files (e.g., articles or news pieces) as input and generates a CSV file as output. This CSV file will contain extracted entities from each text file, streamlining and speeding up content comprehension.
 
 # 🌟 Features
 
@@ -58,10 +58,34 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 
 1. Clone this repo:
 
-2. Install the dependencies:
+  *git clone https://github.com/dsprovider/nlp-spacy-entityextractor.git*
 
-3. Run the Code:
+  *cd nlp-spacy-entityextractor*
 
+3. Install the dependencies:
+
+   *pip install -r requirements.txt*
+
+3. Input your text data: Point to your directory of text files (change *directory* in main() to your directory path)
+   
+4. Run the Code:
+
+   *python entity_relevance_classifier.py*
+
+
+# 📜 Sample Outputs
+
+Running the Python script will generate a CSV file that contains the following columns:
+
+* filename: Name of the processed text file.
+
+* entities_summary: Contains entities extracted from the text based on predefined POS rules, joined with a ' - ' separator. This column provides a concise summary of the text, allowing users to understand the main content without reading the entire text.
+
+* NER entities: Lists identified Named Entity Recognition (NER) entities, which may include 'DATE','EVENT', 'GPE', 'LOC', 'ORG', 'PERSON' or 'TIME'. This column offers a quick insight into the text's subject, intended to be even faster to read than the details in entities_summary.
+
+# 🔜 Upcoming Features
+
+Ideally, this project could integrate a web scraping phase to automatically collect data from relevant websites. Once the data is gathered, the entity extraction process would run, providing a quick, high-level summary of the content. This output could be designed for inclusion in executive reports, offering clear and concise insights for those with limited time who need strong, to-the-point headlines.
 
 
 
