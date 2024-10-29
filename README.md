@@ -13,7 +13,7 @@ This repository is a Python-based project focused on exploring two methods of en
 
 **2. SpaCy's Built-In NER 🔍:**
 
-  - Uses SpaCy's Named Entity Recognition (NER) to identify common entities such as ORG (organizations), GPE (geopolitical entities), and PERSON (individuals).
+  - Uses SpaCy's Named Entity Recognition (NER) to identify common entities such as ORG (organizations), GPE (geopolitical entities), or PERSON (individuals).
 
 # 🛠️ How It Works
 
@@ -56,19 +56,19 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 
 # 🚀 Getting Started
 
-1. Clone this repo:
+1. **Clone this repo:**
 
-  *git clone https://github.com/dsprovider/nlp-spacy-entityextractor.git*
+   *git clone https://github.com/dsprovider/nlp-spacy-entityextractor.git*
 
-  *cd nlp-spacy-entityextractor*
+   *cd nlp-spacy-entityextractor*
 
-3. Install the dependencies:
+2. **Install the dependencies:**
 
    *pip install -r requirements.txt*
 
-3. Input your text data: Point to your directory of text files (change *directory* in main() to your directory path)
+3. **Input your text data:** Point to your directory of text files (change *directory* in main() to your directory path)
    
-4. Run the Code:
+4. **Run the Code:**
 
    *python entity_relevance_classifier.py*
 
@@ -77,15 +77,17 @@ This project also uses SpaCy's NER pipeline to capture entities with established
 
 Running the Python script will generate a CSV file that contains the following columns:
 
-* filename: Name of the processed text file.
+* **filename:** Name of the processed text file.
 
-* entities_summary: Contains entities extracted from the text based on predefined POS rules, joined with a ' - ' separator. This column provides a concise summary of the text, allowing users to understand the main content without reading the entire text.
+* **entities_summary:** Contains entities extracted from the text based on predefined POS rules, joined with a ' - ' separator. This column provides a concise summary of the text, allowing users to understand the main content without reading the entire text.
 
-* NER entities: Lists identified Named Entity Recognition (NER) entities, which may include 'DATE','EVENT', 'GPE', 'LOC', 'ORG', 'PERSON' or 'TIME'. This column offers a quick insight into the text's subject, intended to be even faster to read than the details in entities_summary.
+* **NER entities:** Lists identified Named Entity Recognition (NER) entities, which may include 'DATE','EVENT', 'GPE', 'LOC', 'ORG', 'PERSON' or 'TIME'. This column offers a quick insight into the text's subject, intended to be even faster to read than the details in entities_summary.
 
 # 🔜 Upcoming Features
 
-Ideally, this project could integrate a web scraping phase to automatically collect data from relevant websites. Once the data is gathered, the entity extraction process would run, providing a quick, high-level summary of the content. This output could be designed for inclusion in executive reports, offering clear and concise insights for those with limited time who need strong, to-the-point headlines.
+* Ideally, this project could integrate a web scraping phase to automatically collect data from relevant websites. Once the data is gathered, the entity extraction process would run, providing a quick, high-level summary of the content. This output could be designed for inclusion in executive reports, offering clear and concise insights for those with limited time who need strong, to-the-point headlines.
+
+* Explore NLTK as a potential feature in future testing phases to assess its performance further, despite initial tests indicating lower precision compared to SpaCy. This additional evaluation could provide deeper insights into NLTK's capabilities and identify specific cases where it may still be effective.
 
 
 
